@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/padding_3"
+        android:paddingVertical="@dimen/padding_5"
+        >
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/full_names"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/full_names"
+            android:textSize="@dimen/text_h2"
+            android:layout_marginBottom="@dimen/padding_6"
+            />
+        <TextView
+            android:id="@+id/tv_jam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/date/day_of_week"
+            android:textSize="@dimen/text_h4"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

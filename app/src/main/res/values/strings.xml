@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string-array name="kategori">
+        <item>belajar</item>
+        <item>android</item>
+        <item>sekolah</item>
+        <item>rumah</item>
+    </string-array>
+</resources>
